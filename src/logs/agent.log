@@ -1,0 +1,645 @@
+2025-10-14 11:16:07,682 | DEBUG | Sending prompt to Gemini: '
+        You are an AI assistant helping employees understand company policies.
+        Use the context to answer clearly and accurately.
+
+        Context:
+        rtain product categories (e.g., electronics).
+
+
+
+5. 🛠️ Product Warranty Claiming Policy
+Warranty coverage depends on the product category and brand (see product label or packaging).
+
+
+Claims must be submitted with proof of purchase and a description of the issue.
+
+
+Physical damage or misuse voids warranty.
+
+
+Warranty service may be handled in-store or via authorized service centers, depending on the brand.
+
+
+Customers are responsible for shipping costs (if applicable) when sending products to service centers.
+
+
+
+Note: Policies are subject to change without prior notice. Please refer to the latest version available at the customer service desk or company website.
+pt.
+
+
+Items must be unused, in original packaging, and include all accessories/manuals.
+
+
+Exchanges are subject to product availability.
+
+
+No exchange on clearance or final-sale items unless defective.
+
+
+
+4. Product Return Policy
+Returns are accepted within 14 days of purchase with proof of receipt.
+
+
+Products must be in their original condition and packaging.
+
+
+Refunds will be processed to the original payment method within 3–7 business days.
+
+
+Items such as personal care, hygiene products, or opened electronics are not eligible for return unless defective.
+
+
+A restocking fee may apply for certain product categories (e.g., electronics).
+
+
+
+5. 🛠️ Product Warranty Claiming Policy
+Warranty coverage depends on the product category and brand (see product label or packaging).
+
+
+Claims must be s
+Company Policy Document
+Effective Date: [Insert Date]
+ Version: 1.0
+ Purpose: To outline the basic operational, employee, and customer service policies of the company.
+
+1.  Store Policies
+Store hours are from 9:00 AM to 9:00 PM, Monday to Saturday.
+
+
+All prices are fixed unless marked otherwise during sales or promotions.
+
+
+Customers are encouraged to keep receipts for any purchase.
+
+
+Surveillance is active in the store for safety and security.
+
+
+No smoking, vaping, or consumption of alcohol is allowed on the premises.
+
+
+Pets are not allowed except service animals.
+
+
+
+2. Employee Policies
+All employees must report to work on time and in proper uniform.
+
+
+Mobile phone usage is restricted during working hours unless approved for work-related tasks.
+
+
+Employees must treat all customers and co
+employees must report to work on time and in proper uniform.
+
+
+Mobile phone usage is restricted during working hours unless approved for work-related tasks.
+
+
+Employees must treat all customers and coworkers with respect and professionalism.
+
+
+Any form of harassment or discrimination will result in immediate disciplinary action.
+
+
+Employees are not allowed to process transactions for their own purchases without manager approval.
+
+
+Confidential company information must not be shared externally.
+
+
+
+3. Product Exchange Policy
+Products can be exchanged within 14 days of purchase with a valid receipt.
+
+
+Items must be unused, in original packaging, and include all accessories/manuals.
+
+
+Exchanges are subject to product availability.
+
+
+No exchange on clearance or final-sale items unless defective
+
+        Question: I damaged my product, can i claim warranty?
+        '
+2025-10-14 11:16:09,432 | DEBUG | Gemini returned valid text.
+2025-10-14 11:16:20,709 | DEBUG | Sending prompt to Gemini: '
+        You are an AI assistant helping employees understand company policies.
+        Use the context to answer clearly and accurately.
+
+        Context:
+        Company Policy Document
+Effective Date: [Insert Date]
+ Version: 1.0
+ Purpose: To outline the basic operational, employee, and customer service policies of the company.
+
+1.  Store Policies
+Store hours are from 9:00 AM to 9:00 PM, Monday to Saturday.
+
+
+All prices are fixed unless marked otherwise during sales or promotions.
+
+
+Customers are encouraged to keep receipts for any purchase.
+
+
+Surveillance is active in the store for safety and security.
+
+
+No smoking, vaping, or consumption of alcohol is allowed on the premises.
+
+
+Pets are not allowed except service animals.
+
+
+
+2. Employee Policies
+All employees must report to work on time and in proper uniform.
+
+
+Mobile phone usage is restricted during working hours unless approved for work-related tasks.
+
+
+Employees must treat all customers and co
+pt.
+
+
+Items must be unused, in original packaging, and include all accessories/manuals.
+
+
+Exchanges are subject to product availability.
+
+
+No exchange on clearance or final-sale items unless defective.
+
+
+
+4. Product Return Policy
+Returns are accepted within 14 days of purchase with proof of receipt.
+
+
+Products must be in their original condition and packaging.
+
+
+Refunds will be processed to the original payment method within 3–7 business days.
+
+
+Items such as personal care, hygiene products, or opened electronics are not eligible for return unless defective.
+
+
+A restocking fee may apply for certain product categories (e.g., electronics).
+
+
+
+5. 🛠️ Product Warranty Claiming Policy
+Warranty coverage depends on the product category and brand (see product label or packaging).
+
+
+Claims must be s
+employees must report to work on time and in proper uniform.
+
+
+Mobile phone usage is restricted during working hours unless approved for work-related tasks.
+
+
+Employees must treat all customers and coworkers with respect and professionalism.
+
+
+Any form of harassment or discrimination will result in immediate disciplinary action.
+
+
+Employees are not allowed to process transactions for their own purchases without manager approval.
+
+
+Confidential company information must not be shared externally.
+
+
+
+3. Product Exchange Policy
+Products can be exchanged within 14 days of purchase with a valid receipt.
+
+
+Items must be unused, in original packaging, and include all accessories/manuals.
+
+
+Exchanges are subject to product availability.
+
+
+No exchange on clearance or final-sale items unless defective
+rtain product categories (e.g., electronics).
+
+
+
+5. 🛠️ Product Warranty Claiming Policy
+Warranty coverage depends on the product category and brand (see product label or packaging).
+
+
+Claims must be submitted with proof of purchase and a description of the issue.
+
+
+Physical damage or misuse voids warranty.
+
+
+Warranty service may be handled in-store or via authorized service centers, depending on the brand.
+
+
+Customers are responsible for shipping costs (if applicable) when sending products to service centers.
+
+
+
+Note: Policies are subject to change without prior notice. Please refer to the latest version available at the customer service desk or company website.
+
+        Question: What are the store timings?
+        '
+2025-10-14 11:16:21,689 | DEBUG | Gemini returned valid text.
+2025-10-14 11:18:03,016 | DEBUG | Sending prompt to Gemini: '
+        You are an AI assistant helping employees understand company policies.
+        Use the context to answer clearly and accurately.
+
+        Context:
+        Company Policy Document
+Effective Date: [Insert Date]
+ Version: 1.0
+ Purpose: To outline the basic operational, employee, and customer service policies of the company.
+
+1.  Store Policies
+Store hours are from 9:00 AM to 9:00 PM, Monday to Saturday.
+
+
+All prices are fixed unless marked otherwise during sales or promotions.
+
+
+Customers are encouraged to keep receipts for any purchase.
+
+
+Surveillance is active in the store for safety and security.
+
+
+No smoking, vaping, or consumption of alcohol is allowed on the premises.
+
+
+Pets are not allowed except service animals.
+
+
+
+2. Employee Policies
+All employees must report to work on time and in proper uniform.
+
+
+Mobile phone usage is restricted during working hours unless approved for work-related tasks.
+
+
+Employees must treat all customers and co
+employees must report to work on time and in proper uniform.
+
+
+Mobile phone usage is restricted during working hours unless approved for work-related tasks.
+
+
+Employees must treat all customers and coworkers with respect and professionalism.
+
+
+Any form of harassment or discrimination will result in immediate disciplinary action.
+
+
+Employees are not allowed to process transactions for their own purchases without manager approval.
+
+
+Confidential company information must not be shared externally.
+
+
+
+3. Product Exchange Policy
+Products can be exchanged within 14 days of purchase with a valid receipt.
+
+
+Items must be unused, in original packaging, and include all accessories/manuals.
+
+
+Exchanges are subject to product availability.
+
+
+No exchange on clearance or final-sale items unless defective
+rtain product categories (e.g., electronics).
+
+
+
+5. 🛠️ Product Warranty Claiming Policy
+Warranty coverage depends on the product category and brand (see product label or packaging).
+
+
+Claims must be submitted with proof of purchase and a description of the issue.
+
+
+Physical damage or misuse voids warranty.
+
+
+Warranty service may be handled in-store or via authorized service centers, depending on the brand.
+
+
+Customers are responsible for shipping costs (if applicable) when sending products to service centers.
+
+
+
+Note: Policies are subject to change without prior notice. Please refer to the latest version available at the customer service desk or company website.
+pt.
+
+
+Items must be unused, in original packaging, and include all accessories/manuals.
+
+
+Exchanges are subject to product availability.
+
+
+No exchange on clearance or final-sale items unless defective.
+
+
+
+4. Product Return Policy
+Returns are accepted within 14 days of purchase with proof of receipt.
+
+
+Products must be in their original condition and packaging.
+
+
+Refunds will be processed to the original payment method within 3–7 business days.
+
+
+Items such as personal care, hygiene products, or opened electronics are not eligible for return unless defective.
+
+
+A restocking fee may apply for certain product categories (e.g., electronics).
+
+
+
+5. 🛠️ Product Warranty Claiming Policy
+Warranty coverage depends on the product category and brand (see product label or packaging).
+
+
+Claims must be s
+
+        Question: can you explain me the employee policies
+        '
+2025-10-14 11:18:06,173 | DEBUG | Gemini returned valid text.
+2025-10-14 11:18:40,518 | DEBUG | Sending prompt to Gemini: '
+        You are an AI assistant helping employees understand company policies.
+        Use the context to answer clearly and accurately.
+
+        Context:
+        pt.
+
+
+Items must be unused, in original packaging, and include all accessories/manuals.
+
+
+Exchanges are subject to product availability.
+
+
+No exchange on clearance or final-sale items unless defective.
+
+
+
+4. Product Return Policy
+Returns are accepted within 14 days of purchase with proof of receipt.
+
+
+Products must be in their original condition and packaging.
+
+
+Refunds will be processed to the original payment method within 3–7 business days.
+
+
+Items such as personal care, hygiene products, or opened electronics are not eligible for return unless defective.
+
+
+A restocking fee may apply for certain product categories (e.g., electronics).
+
+
+
+5. 🛠️ Product Warranty Claiming Policy
+Warranty coverage depends on the product category and brand (see product label or packaging).
+
+
+Claims must be s
+Company Policy Document
+Effective Date: [Insert Date]
+ Version: 1.0
+ Purpose: To outline the basic operational, employee, and customer service policies of the company.
+
+1.  Store Policies
+Store hours are from 9:00 AM to 9:00 PM, Monday to Saturday.
+
+
+All prices are fixed unless marked otherwise during sales or promotions.
+
+
+Customers are encouraged to keep receipts for any purchase.
+
+
+Surveillance is active in the store for safety and security.
+
+
+No smoking, vaping, or consumption of alcohol is allowed on the premises.
+
+
+Pets are not allowed except service animals.
+
+
+
+2. Employee Policies
+All employees must report to work on time and in proper uniform.
+
+
+Mobile phone usage is restricted during working hours unless approved for work-related tasks.
+
+
+Employees must treat all customers and co
+employees must report to work on time and in proper uniform.
+
+
+Mobile phone usage is restricted during working hours unless approved for work-related tasks.
+
+
+Employees must treat all customers and coworkers with respect and professionalism.
+
+
+Any form of harassment or discrimination will result in immediate disciplinary action.
+
+
+Employees are not allowed to process transactions for their own purchases without manager approval.
+
+
+Confidential company information must not be shared externally.
+
+
+
+3. Product Exchange Policy
+Products can be exchanged within 14 days of purchase with a valid receipt.
+
+
+Items must be unused, in original packaging, and include all accessories/manuals.
+
+
+Exchanges are subject to product availability.
+
+
+No exchange on clearance or final-sale items unless defective
+rtain product categories (e.g., electronics).
+
+
+
+5. 🛠️ Product Warranty Claiming Policy
+Warranty coverage depends on the product category and brand (see product label or packaging).
+
+
+Claims must be submitted with proof of purchase and a description of the issue.
+
+
+Physical damage or misuse voids warranty.
+
+
+Warranty service may be handled in-store or via authorized service centers, depending on the brand.
+
+
+Customers are responsible for shipping costs (if applicable) when sending products to service centers.
+
+
+
+Note: Policies are subject to change without prior notice. Please refer to the latest version available at the customer service desk or company website.
+
+        Question: How long is the exchange polcicy valid?
+        '
+2025-10-14 11:18:53,360 | DEBUG | Gemini returned valid text.
+2025-10-14 11:20:01,643 | DEBUG | Sending prompt to Gemini: '
+        You are an AI assistant helping employees understand company policies.
+        Use the context to answer clearly and accurately.
+
+        Context:
+        pt.
+
+
+Items must be unused, in original packaging, and include all accessories/manuals.
+
+
+Exchanges are subject to product availability.
+
+
+No exchange on clearance or final-sale items unless defective.
+
+
+
+4. Product Return Policy
+Returns are accepted within 14 days of purchase with proof of receipt.
+
+
+Products must be in their original condition and packaging.
+
+
+Refunds will be processed to the original payment method within 3–7 business days.
+
+
+Items such as personal care, hygiene products, or opened electronics are not eligible for return unless defective.
+
+
+A restocking fee may apply for certain product categories (e.g., electronics).
+
+
+
+5. 🛠️ Product Warranty Claiming Policy
+Warranty coverage depends on the product category and brand (see product label or packaging).
+
+
+Claims must be s
+Company Policy Document
+Effective Date: [Insert Date]
+ Version: 1.0
+ Purpose: To outline the basic operational, employee, and customer service policies of the company.
+
+1.  Store Policies
+Store hours are from 9:00 AM to 9:00 PM, Monday to Saturday.
+
+
+All prices are fixed unless marked otherwise during sales or promotions.
+
+
+Customers are encouraged to keep receipts for any purchase.
+
+
+Surveillance is active in the store for safety and security.
+
+
+No smoking, vaping, or consumption of alcohol is allowed on the premises.
+
+
+Pets are not allowed except service animals.
+
+
+
+2. Employee Policies
+All employees must report to work on time and in proper uniform.
+
+
+Mobile phone usage is restricted during working hours unless approved for work-related tasks.
+
+
+Employees must treat all customers and co
+rtain product categories (e.g., electronics).
+
+
+
+5. 🛠️ Product Warranty Claiming Policy
+Warranty coverage depends on the product category and brand (see product label or packaging).
+
+
+Claims must be submitted with proof of purchase and a description of the issue.
+
+
+Physical damage or misuse voids warranty.
+
+
+Warranty service may be handled in-store or via authorized service centers, depending on the brand.
+
+
+Customers are responsible for shipping costs (if applicable) when sending products to service centers.
+
+
+
+Note: Policies are subject to change without prior notice. Please refer to the latest version available at the customer service desk or company website.
+employees must report to work on time and in proper uniform.
+
+
+Mobile phone usage is restricted during working hours unless approved for work-related tasks.
+
+
+Employees must treat all customers and coworkers with respect and professionalism.
+
+
+Any form of harassment or discrimination will result in immediate disciplinary action.
+
+
+Employees are not allowed to process transactions for their own purchases without manager approval.
+
+
+Confidential company information must not be shared externally.
+
+
+
+3. Product Exchange Policy
+Products can be exchanged within 14 days of purchase with a valid receipt.
+
+
+Items must be unused, in original packaging, and include all accessories/manuals.
+
+
+Exchanges are subject to product availability.
+
+
+No exchange on clearance or final-sale items unless defective
+
+        Question: What is the time-frame for the processing of the refunds
+        '
+2025-10-14 11:20:02,534 | DEBUG | Gemini returned valid text.
