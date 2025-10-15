@@ -3,47 +3,49 @@ from pathlib import Path
 
 # Ensure src is in Python path
 BASE_DIR = Path(__file__).resolve().parent
-sys.path.append(str(BASE_DIR / "src"))
+sys.path.append(str(BASE_DIR))
 
-from ingestion.file_loader import load_policy_and_create_index
-from vector_store.faiss_store import FAISSStore
-from llm.gemini_client import ask_gemini
-from config.settings import POLICY_FILE, TOP_K
+from src.ingestion.file_loader import load_policy_and_create_index
+from src.vector_store.faiss_store import FAISSStore
+from src.rag_workflow.rag import RAGWorkflow
+from src.config.settings import POLICY_FILE
+from src.config.logger import logger
 
 
 def main():
-    print("\n🚀 Starting AI RAG Chatbot...\n")
+    """
+    Main function to initialize and run the RAG Chatbot.
+    """
+    logger.info("🚀 Starting AI RAG Chatbot...")
 
     store = FAISSStore()
 
     if store.index is None:
-        print("🧠 FAISS index not found — building now...")
-        load_policy_and_create_index(POLICY_FILE)
-        store = FAISSStore()  # reload after building
+        logger.warning("🧠 FAISS index not found — building now...")
+        try:
+            load_policy_and_create_index(POLICY_FILE)
+            store = FAISSStore()  # Reload after building
+        except FileNotFoundError as e:
+            logger.error(f"Failed to build index: {e}")
+            return  # Exit if policy file is not found
     else:
-        print("✅ FAISS index found! Ready to query.\n")
+        logger.info("✅ FAISS index found! Ready to query.")
 
-    # Chat loop
-    print("💬 Ask questions about the company policy! Type 'exit' to quit.\n")
+    # Initialize the RAG workflow
+    rag_workflow = RAGWorkflow(store)
+
+    # --- Start Chatbot Loop ---
+    print("\n💬 Ask questions about the company policy! Type 'exit' to quit.\n")
     while True:
         user_input = input("You: ").strip()
         if user_input.lower() in ["exit", "quit"]:
             print("👋 Goodbye!")
             break
 
-        top_chunks = store.query(user_input, top_k=TOP_K)
-        context = "\n".join(top_chunks)
-        prompt = f"""
-        You are an AI assistant helping employees understand company policies.
-        Use the context to answer clearly and accurately.
+        if not user_input:
+            continue
 
-        Context:
-        {context}
-
-        Question: {user_input}
-        """
-
-        answer = ask_gemini(prompt)
+        answer = rag_workflow.execute(user_input)
         print(f"\nBot: {answer.strip()}\n")
 
 

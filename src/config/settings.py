@@ -9,11 +9,11 @@ POLICY_FILE = "data/company_policy.txt"
 FAISS_INDEX_FILE = "data/faiss_index.index"  # using .index instead of .pkl
 
 # Chunking
-CHUNK_SIZE = 800
-CHUNK_OVERLAP = 200
+CHUNK_SIZE = 512
+CHUNK_OVERLAP = 50
 
 # Embedding model (offline-ready)
 EMBED_MODEL = "paraphrase-MiniLM-L3-v2"
 
 # Number of chunks to retrieve for a query
-TOP_K = 4
+TOP_K = 3
