@@ -3,6 +3,8 @@ import email
 import time
 from src.security.security import mail_id, mail_pass
 from src.email_agent.classifier import classify_email_content
+from src.email_agent.sender import send_email
+from src.email_agent.utils import extract_email_address
 
 HOST = "imap.gmail.com"
 USERNAME = mail_id
@@ -62,6 +64,10 @@ def start_email_agent(rag_workflow):
                         rag_response = rag_workflow.execute(body)
                         print("\n🤖 RAG Response:")
                         print(rag_response)
+
+                        from_email = extract_email_address(msg.get("From"))
+                        subject = "Re: " + (msg.get("Subject") or "(no subject)")
+                        send_email(to_address=from_email, subject=subject, body=rag_response)
 
                     else:
                         print("🚫 Ignored: Marking as read / skipping.")
