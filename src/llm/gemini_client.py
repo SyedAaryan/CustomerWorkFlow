@@ -6,6 +6,7 @@ from src.config.logger import logger  # import your dedicated logger
 # Configure Gemini API
 genai.configure(api_key=GEMINI_API_KEY)
 
+
 def ask_gemini(prompt: str) -> str:
     """
     Sends a text prompt to the Gemini API and returns the response.

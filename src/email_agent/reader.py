@@ -2,6 +2,7 @@ import imaplib
 import email
 import time
 from src.security.security import mail_id, mail_pass
+from src.email_agent.classifier import classify_email_content
 
 HOST = "imap.gmail.com"
 USERNAME = mail_id
@@ -22,11 +23,11 @@ def get_plain_text(msg):
             )
     return ""
 
+
 def start_email_agent(rag_workflow):
     """
     Continuously checks for new unread emails,
-    passes their content to the RAG workflow,
-    and prints the AI's response.
+    classifies them, and routes accordingly.
     """
     print("\n📧 Email Agent Started. Checking for new emails...\n(Press CTRL+C to stop)\n")
     try:
@@ -46,17 +47,24 @@ def start_email_agent(rag_workflow):
                     msg = email.message_from_bytes(raw)
                     body = get_plain_text(msg)
 
-                    print("="*50)
+                    print("=" * 50)
                     print("📩 New Email")
                     print("From:", msg.get("From"))
                     print("Subject:", msg.get("Subject"))
                     print("Body:\n", body)
 
-                    # 👇 Send email content to RAG workflow
-                    rag_response = rag_workflow.execute(body)
-                    print("\n🤖 RAG Response:")
-                    print(rag_response)
-                    print("="*50)
+                    # Classify the email
+                    label = classify_email_content(body)
+                    print(f"🧠 Classification: {label}")
+
+                    # Route based on classification
+                    if label == "policy_question":
+                        rag_response = rag_workflow.execute(body)
+                        print("\n🤖 RAG Response:")
+                        print(rag_response)
+
+                    else:
+                        print("🚫 Ignored: Marking as read / skipping.")
 
                     # mark as read
                     mail.store(num, '+FLAGS', '\\Seen')
