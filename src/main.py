@@ -7,6 +7,10 @@ from src.config.settings import POLICY_FILE
 from src.config.logger import logger
 from src.email_agent.reader import start_email_agent
 
+import os
+os.environ["GRPC_VERBOSITY"] = "NONE"
+os.environ["GRPC_TRACE"] = ""
+
 # Ensure src is in Python path
 BASE_DIR = Path(__file__).resolve().parent
 sys.path.append(str(BASE_DIR))
